@@ -94,6 +94,7 @@ button:hover {
 }
 
 .col-md-4 {
+    margin: 0 auto;
     color: #0A004C;
     display: inline-block;
     margin-top: 5%;
