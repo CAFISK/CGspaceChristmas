@@ -1,0 +1,102 @@
+* {
+    outline: none;
+    user-select: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin-top: 10%;
+    width: 80%;
+}
+
+.container {
+    text-align: center;
+}
+
+.title h3 {
+
+    margin: 20px;
+    font-weight: 400;
+    font-family: "Berlin Sans FB";
+
+}
+
+form {
+    background-color: rgba(255, 255, 255, .3);
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-top: 5%;
+    backdrop-filter: blur(3px);
+    border-left: 2px solid rgba(255, 255, 255, .3);
+    border-top: 2px solid rgba(255, 255, 255, .3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    border: none;
+    width: 80%;
+    font-size: 22px;
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    font-family: "Berlin Sans FB";
+    color: white;
+}
+
+input:focus {
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    font-family: "Berlin Sans FB";
+}
+
+button {
+    border: none;
+    width: 60%;
+    font-size: 20px;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    font-family: "Berlin Sans FB";
+}
+
+button:hover {
+    backdrop-filter: blur(2px);
+    border-left: 1px solid rgba(255, 255, 255, .1);
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.col-md-4 {
+    color: #0A004C;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 30px;
+    width: 20%;
+}

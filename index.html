@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<!-- <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+<!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" property="" />  -->
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!-- web-fonts --> 
+<!-- //web-fonts -->
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!-- //end-smooth-scrolling -->	
+</head>
+<body>
+	<!-- features -->
+	<div id="features" class="features">
+		<div class="container">
+			<div class="title">
+				<img src="images/title.png">
+			</div>
+			<div class="col-md-12">
+                <div class="container-fluid">
+                    <form class="form-horizontal" role="form">
+                      <div class="form-group">
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="inputYourName" placeholder="输入你的名字">
+                        </div>
+                        <button type="button" class="col-sm-2 btn btn-primary" onclick="Generate();">随机生成关键词</button>
+                      </div>
+                    </form>
+                </div>
+				<div class="col-md-4">
+					<h4 id="keyword_1">1</h4>
+				</div>
+				<div class="col-md-4">
+					<h4 id="keyword_2">2</h4>
+				</div>
+				<div class="col-md-4">
+					<h4 id="keyword_3">3</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //features -->
+	<!-- testimonial -->
+	<!-- menu-js -->
+	<script>
+		$('.navicon').on('click', function (e) {
+		  e.preventDefault();
+		  $(this).toggleClass('navicon--active');
+		  $('.toggle').toggleClass('toggle--active');
+		});
+	</script>
+	<!-- //menu-js -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up --> 
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/code.js"></script>
+</body>
+</html>
